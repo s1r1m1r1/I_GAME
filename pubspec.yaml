@@ -1,0 +1,12 @@
+name: work_melos
+publish_to: none
+environment:
+  sdk: ^3.8.0
+
+dev_dependencies:
+  melos:
+
+workspace:
+  - packages/backend
+  - packages/frontend
+  - packages/sha_red

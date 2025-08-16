@@ -1,0 +1,9 @@
+name: my_project
+
+packages:
+  - apps/**
+  - packages/**
+
+scripts:
+  generate:
+    run: melos exec -c 4 --depends-on build_runner -- dart run build_runner build -d

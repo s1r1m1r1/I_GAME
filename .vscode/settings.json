@@ -1,0 +1,39 @@
+{
+    "dart.mcpServer": true,
+    "explorer.fileNesting.enabled": true,
+    // "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.bloc.dart": "${capture}.event.dart,${capture}.state.dart,${capture}.guard.dart,${capture}.bloc_manager.dart",
+        "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata,devtools_options.yaml,analysis_options.yaml,.tool-versions,.json,flutter_launcher_i*.yaml",
+    },
+    // видимоcть файлов
+    "files.exclude": {
+        "**/*.g.*": true,
+        "**/*.freezed.*": true,
+        "**/ios/*": true,
+        "**/android/*": false,
+        "**/test/*": false,
+        "**/pubspec.lock": true,
+        "**/analysis_options.yaml": true,
+        // "**/combined/*": true,
+    },
+    "cSpell.dictionaries": [
+        "dart"
+    ],
+    //install extension Russian - Code Spell Checker
+    "cSpell.language": "en,ru",
+    "cSpell.words": [
+        "checkpw",
+        "daos",
+        "gensalt",
+        "googlesignin",
+        "hashpw",
+        "stagging"
+    ],
+    "cSpell.ignorePaths": [
+        "vscode-extension", //
+        ".git",
+        "g.dart"
+    ],
+    "dart.lineLength": 80
+}
