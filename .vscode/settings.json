@@ -3,6 +3,8 @@
     "explorer.fileNesting.enabled": true,
     // "explorer.fileNesting.expand": false,
     "explorer.fileNesting.patterns": {
+        "*.repository.dart": "${capture}.repository.impl.dart",
+        "*.datasource.dart": "${capture}.datasource.impl.dart",
         "*.bloc.dart": "${capture}.event.dart,${capture}.state.dart,${capture}.guard.dart,${capture}.bloc_manager.dart",
         "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata,devtools_options.yaml,analysis_options.yaml,.tool-versions,.json,flutter_launcher_i*.yaml,Dockerfile.*,*.md",
     },
