@@ -945,13 +945,13 @@
     },
     {
       "name": "backend",
-      "rootUri": "../packages/backend",
+      "rootUri": "../apps/backend",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
     {
       "name": "frontend",
-      "rootUri": "../packages/frontend",
+      "rootUri": "../apps/frontend",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },

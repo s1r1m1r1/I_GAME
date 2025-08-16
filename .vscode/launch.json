@@ -8,7 +8,7 @@
             "name": "Macos localhost",
             "request": "launch",
             "type": "dart",
-            "program": "packages/frontend/lib/main_dev.dart",
+            "program": "apps/frontend/lib/main_dev.dart",
             "deviceId": "macos",
             "toolArgs": [],
             "flutterMode": "profile" // Explicitly set the debug mode
@@ -17,7 +17,7 @@
             "name": "Macos server",
             "request": "launch",
             "type": "dart",
-            "program": "packages/frontend/lib/main.dart",
+            "program": "apps/frontend/lib/main.dart",
             "deviceId": "macos",
             "toolArgs": [
                 "--dart-define-from-file=prod_config.json"
@@ -28,7 +28,7 @@
             "name": "Android dev",
             "request": "launch",
             "type": "dart",
-            "program": "packages/frontend/lib/main.dart",
+            "program": "apps/frontend/lib/main.dart",
             "deviceId": "emulator-5554",
             "toolArgs": [
                 // "--dart-define=flavor=dev"
