@@ -15,6 +15,7 @@
         "**/.qodo": true,
         "**/.trae": true,
         "**/*.g.*": true,
+        "**/*.chopper.*": true,
         "**/*.freezed.*": true,
         "**/ios": true,
         "**/build": true,

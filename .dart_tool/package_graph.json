@@ -57,8 +57,8 @@
       "dependencies": [
         "bloc",
         "bloc_concurrency",
+        "chopper",
         "cupertino_icons",
-        "dio",
         "drift",
         "drift_dev",
         "equatable",
@@ -69,6 +69,7 @@
         "freezed_annotation",
         "get_it",
         "go_router",
+        "http",
         "injectable",
         "intl",
         "json_annotation",
@@ -86,6 +87,7 @@
       ],
       "devDependencies": [
         "build_runner",
+        "chopper_generator",
         "flutter_lints",
         "flutter_test",
         "freezed",
@@ -258,6 +260,22 @@
       ]
     },
     {
+      "name": "chopper_generator",
+      "version": "8.3.0",
+      "dependencies": [
+        "analyzer",
+        "build",
+        "built_collection",
+        "chopper",
+        "code_builder",
+        "collection",
+        "logging",
+        "meta",
+        "source_gen",
+        "yaml"
+      ]
+    },
+    {
       "name": "go_router_builder",
       "version": "3.2.1",
       "dependencies": [
@@ -312,6 +330,27 @@
         "path",
         "recase",
         "source_gen"
+      ]
+    },
+    {
+      "name": "http",
+      "version": "1.5.0",
+      "dependencies": [
+        "async",
+        "http_parser",
+        "meta",
+        "web"
+      ]
+    },
+    {
+      "name": "chopper",
+      "version": "8.3.0",
+      "dependencies": [
+        "equatable",
+        "http",
+        "logging",
+        "meta",
+        "qs_dart"
       ]
     },
     {
@@ -501,19 +540,6 @@
       ]
     },
     {
-      "name": "dio",
-      "version": "5.9.0",
-      "dependencies": [
-        "async",
-        "collection",
-        "dio_web_adapter",
-        "http_parser",
-        "meta",
-        "mime",
-        "path"
-      ]
-    },
-    {
       "name": "injectable",
       "version": "2.5.1",
       "dependencies": [
@@ -629,16 +655,6 @@
         "fixnum",
         "meta",
         "sprintf"
-      ]
-    },
-    {
-      "name": "http",
-      "version": "1.5.0",
-      "dependencies": [
-        "async",
-        "http_parser",
-        "meta",
-        "web"
       ]
     },
     {
@@ -1207,6 +1223,11 @@
       ]
     },
     {
+      "name": "built_collection",
+      "version": "5.1.1",
+      "dependencies": []
+    },
+    {
       "name": "leak_tracker_flutter_testing",
       "version": "3.0.10",
       "dependencies": [
@@ -1244,6 +1265,26 @@
       "name": "web",
       "version": "1.1.1",
       "dependencies": []
+    },
+    {
+      "name": "http_parser",
+      "version": "4.1.2",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner",
+        "typed_data"
+      ]
+    },
+    {
+      "name": "qs_dart",
+      "version": "1.4.3",
+      "dependencies": [
+        "collection",
+        "equatable",
+        "meta",
+        "weak_map"
+      ]
     },
     {
       "name": "web_socket",
@@ -1403,26 +1444,6 @@
       ]
     },
     {
-      "name": "dio_web_adapter",
-      "version": "2.1.1",
-      "dependencies": [
-        "dio",
-        "http_parser",
-        "meta",
-        "web"
-      ]
-    },
-    {
-      "name": "http_parser",
-      "version": "4.1.2",
-      "dependencies": [
-        "collection",
-        "source_span",
-        "string_scanner",
-        "typed_data"
-      ]
-    },
-    {
       "name": "sky_engine",
       "version": "0.0.0",
       "dependencies": []
@@ -1555,11 +1576,6 @@
       ]
     },
     {
-      "name": "built_collection",
-      "version": "5.1.1",
-      "dependencies": []
-    },
-    {
       "name": "leak_tracker_testing",
       "version": "3.0.2",
       "dependencies": [
@@ -1578,6 +1594,11 @@
         "path",
         "vm_service"
       ]
+    },
+    {
+      "name": "weak_map",
+      "version": "4.0.1",
+      "dependencies": []
     },
     {
       "name": "plugin_platform_interface",
