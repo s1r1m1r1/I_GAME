@@ -10,3 +10,5 @@ workspace:
   - apps/backend
   - apps/frontend
   - packages/sha_red
+dependencies:
+  mailer: ^6.5.0

@@ -6,13 +6,13 @@
         "*.repository.dart": "${capture}.repository.impl.dart",
         "*.datasource.dart": "${capture}.datasource.impl.dart",
         "*.bloc.dart": "${capture}.event.dart,${capture}.state.dart,${capture}.guard.dart,${capture}.bloc_manager.dart",
-        "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata,devtools_options.yaml,analysis_options.yaml,.tool-versions,.json,flutter_launcher_i*.yaml,Dockerfile.*,*.md,build.yaml",
+        "*.cubit.dart": "${capture}.state.dart,${capture}.guard.dart,${capture}.cubit_manager.dart",
+        "pubspec.yaml": ".gitignore,pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata,devtools_options.yaml,analysis_options.yaml,.tool-versions,.json,flutter_launcher_i*.yaml,Dockerfile.*,*.md,build.yaml",
     },
     // видимоcть файлов
     "files.exclude": {
-        "**/.gitignore": true,
         "**/.dart_tool": true,
-        "**/.qodo": true,
+        "**/.qodo": false,
         "**/.trae": true,
         "**/*.g.*": true,
         "**/*.chopper.*": true,
